@@ -1,0 +1,21 @@
+{
+	"private": true,
+	"workspaces": ["libs/*", "front/*"],
+	"devDependencies": {
+		"prettier": "^1.18.2"
+	},
+	"prettier": {
+		"useTabs": true,
+		"singleQuote": true,
+		"trailingComma": "none",
+		"printWidth": 100,
+		"overrides": [
+			{
+				"files": "*.json",
+				"options": {
+					"parser": "json"
+				}
+			}
+		]
+	}
+}
