@@ -1,7 +1,7 @@
 React, Tailwind and StoryBook
 ===
 
-> Boilerplate for developing Atomic Design React Apps, with functional CSS and Storybook.
+> A MonoRepo Boilerplate for developing Atomic Design React Apps, with functional CSS and Storybook.
 
 ### Tailwind
 
@@ -14,7 +14,7 @@ $ yarn workspace style start
 Build:
 
 ```shell script
-$ yarn workspace style start
+$ yarn workspace style build
 ```
 
 ### App
